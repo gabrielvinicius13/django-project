@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'meuapp/css/meuapp.css' %}">
+</head>
+<body>
+    <h1>Consulta</h1>
+
+    <form action="{% url 'consulta' %}" method="POST">{% csrf_token %}
+        <label for="input_cnpj"></label><input type="text" name="cnpj" id="input_cnpj" placeholder="Digite o CNPJ" maxlength="14" required>
+        <label for="input_razao_social"></label><input type="text" name="razao_social" id="input_razao_social" placeholder="Digite a Razão Social" required >
+        <br>
+        <br>
+        <input type="submit" value="Pesquisar">
+    </form>
+    <br>
+    {% if error %}
+    <p>{{ error }}</p>
+    {% endif %}
+
+    {% if success %}
+    <p>{{ success}}</p>
+    {% endif %}
+    
+</body>
+</html>
