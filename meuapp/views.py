@@ -39,7 +39,7 @@ def home(request):
 
         consulta = Consulta(cnpj=cnpj, razao_social=razao_social)
         if Consulta.objects.filter(cnpj=cnpj).exists():
-            return render(request, 'meuapp.html', {'error':"CNPJ já cadastrado!"})  # Retorna erro se o CNPJ já existe
+            return render(request, 'meuapp.html', {'success':"CNPJ já cadastrado!"})  # Retorna erro se o CNPJ já existe
 
         print(f"CNPJ: {cnpj}, Razão Social: {razao_social}")  # Imprime os valores no console
         return render(request, 'meuapp.html', {'error':"CNPJ não encontrado!"})  # Retorna sucesso se o CNPJ não existe

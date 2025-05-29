@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75c66ff3-d7b9-4ab1-b4e4-b7efa1c83068" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meuapp/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meuapp/templates/meuapp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meuapp/templates/name.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meuapp/templates/thanks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/72f7aa64-0215-439c-9704-fb4c62ca60ac.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/72f7aa64-0215-439c-9704-fb4c62ca60ac.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-interface/logo/Captura_de_tela_2025-05-19_115055.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-interface/logo/cnseg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-interface/logo/logo_topo_eventos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meuapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/meuapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meuapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/meuapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/static/meuapp/css/meuapp.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +35,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MigrationScriptOptions">
+    <option name="ignoreImplicitObjects" value="true" />
+    <option name="ignoreSourceCode" value="false" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -42,19 +51,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Django Server.django_project.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.django_project.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\django_project\meuapp\templates" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="django_project" type="Python.DjangoServer" factoryName="Django server">
       <module name="django_project" />
@@ -101,7 +115,13 @@
       <workItem from="1747939040833" duration="127000" />
       <workItem from="1747939177698" duration="4024000" />
       <workItem from="1747950320212" duration="3521000" />
-      <workItem from="1748004246897" duration="1902000" />
+      <workItem from="1748004246897" duration="13666000" />
+      <workItem from="1748265560209" duration="3103000" />
+      <workItem from="1748271580006" duration="18057000" />
+      <workItem from="1748365999868" duration="3670000" />
+      <workItem from="1748440277099" duration="925000" />
+      <workItem from="1748441243327" duration="6245000" />
+      <workItem from="1748522176465" duration="319000" />
     </task>
     <servers />
   </component>
@@ -115,21 +135,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/meuapp/urls.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/meuapp/models.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

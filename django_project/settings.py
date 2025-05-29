@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 
 from pathlib import Path
 import os
+from django.utils.safestring import mark_safe
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -40,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'meuapp',
+    'products'
 ]
 
 X_FRAME_OPTIONS = "SAMEORIGIN"
@@ -120,8 +123,35 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-STATIC_URL = 'static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'templates/static')]
+STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
+
+# Diretório onde o collectstatic irá coletar os arquivos estáticos
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+# Diretório para upload de arquivos de mídia
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# Diretórios adicionais onde o Django procurará arquivos estáticos
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
+
+# Admin interface customizada
+
+# Admin interface customizada
+ADMIN_INTERFACE_THEME = {
+    # 👇 CORREÇÃO: Use a chave "name" para o texto visível
+    "name": mark_safe("<strong>Sistema CTC</strong>"),
+
+    # 👇 O "title" é para a aba do navegador, pode deixar sem HTML
+    "title": "Sistema CTC",
+
+    # Suas outras configurações, se houver
+    "logo": "/media/admin-interface/logo/VETOR_NEGATIVA_BLOCADA_sem_assinatura_PB.png",
+    "logo_max_width": 200,
+    "logo_max_height": 100
+}
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
